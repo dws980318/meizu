@@ -6,19 +6,23 @@
 	width: 1240px;
 	margin: 0 auto;
 }
-.header-wrapper{
-	position: absolute;
+.toggle1{
+	position: relative;
     width: 100%;
     top: 0;
     z-index: 999;
+    display: none;
+   background: red;
+    transition: all .3s ease;
 }
+
 .header-box{
-	height: 82px;
+	height: 282px;
 	position: relative;
 }
 .header{
 	position: relative;
-	height: 82px;
+	height: 282px;
 }
 .logo{
 	padding: 28px 0;
@@ -31,7 +35,7 @@
 	display: block;
 	height: 24px;
 	width: 125px;
-	background:url(../images/logo.png) no-repeat;
+	background:url(../images/logo2.png) no-repeat;
 	text-indent: -9999px;
 }
 .nav{
@@ -44,7 +48,7 @@
 }
 .nav li a{
 	display: block;
-	color: #fff;
+	color: #333;
     padding: 31px 20px 30px;
     line-height: 21px;
     font-size: 14px;
@@ -128,6 +132,7 @@
 }
 .header-item a img{
     display: block;
+    color: #333;
 }
 .header-item-box{
 	position: absolute;
@@ -180,17 +185,4 @@
 }
 .header-box .nav li:nth-of-type(1) a:hover .sub-nav .sub-nav__wrap{
 	display: block;
-}
-.toggle{
-	background: #fff;
-	height: 282px;
-
-	position: absolute;
-    width: 100%;
-    top: 0;
-    z-index: 999;
-}
-.toggle a{
-	color: #000;
-	
 }
