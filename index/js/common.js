@@ -260,6 +260,7 @@ var up = document.querySelector('#meizu-header-sub-download');
 var toggle = document.querySelector('.toggle');
 var timer = null;
 app.onmouseenter = function() {
+	up.style.display = 'block';
 	clearTimeout(timer)
 	$('#meizu-header-sub-download').addClass('sub-nav-animation')
 	$('#meizu-header-sub-download').addClass('sub-nav-show')
